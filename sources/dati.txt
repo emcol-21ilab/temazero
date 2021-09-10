@@ -1,0 +1,66 @@
+WORDPRESS
+
+Installazione in locale:
+Versione: 5.7
+Data: 20/03/2021
+Server: localhost:8888/corso-php-2020-w817-wp-temazero/
+-----------------------------
+DB LOCALE
+Nome: ilas_w817_wp_temazero (DB_NAME)
+Utente: root (DB_USER)
+Pwd: root (DB_PASSWORD)
+Host: localhost
+Prefisso tabelle: wp_
+-----------------------------
+DB REMOTO
+Nome: -
+Utente: -
+Pwd: -
+Host (IP ADDRESS): -
+Prefisso tabelle: wp_
+-----------------------------
+SITO
+Titolo (nome blog): Temazero
+Motto: Un tema costruito da zero
+VISIBILITA AI MOTORI DI RICERCA: NO
+-----------------------------
+USERS
+
+Ruolo: ADMINISTRATORS
+
+USER: admin
+PWD: admin
+EMAIL: admin@email.com
+-----------------------------
+Ruolo: EDITORS
+
+USER: 
+NOME: 
+COGNOME: 
+PWD: 
+EMAIL: 
+-----------------------------
+Ruolo: AUTHORS
+
+USER: 
+NOME: 
+COGNOME:
+PWD:
+EMAIL:
+
+-----------------------------
+Ruolo: CONTRIBUTORS
+
+USER: 
+NOME: 
+COGNOME:
+PWD:
+EMAIL: 
+-----------------------------
+Ruolo: SUBSCRIVERS
+
+USER:
+NOME: 
+COGNOME: 
+PWD:
+EMAIL: 

@@ -1,0 +1,14 @@
+:root {
+	--trans_base: all 300ms linear;
+}
+body>header h1 {
+	font-weight: bold;
+}
+body>footer a {
+	color: #fff;
+	text-decoration: none;
+	transition: var(--trans_base);
+}
+body>footer a:hover {
+	color: rgb(95, 202, 206);
+}

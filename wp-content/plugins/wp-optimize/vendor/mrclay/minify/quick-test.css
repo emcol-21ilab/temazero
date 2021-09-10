@@ -1,0 +1,28 @@
+/*! This file exists only for testing a Minify installation. Its content is not used.
+ *
+ * http://example.org/min/f=min/quick-test.less
+ */
+@import "quick-test.css";
+/*! This file exists only for testing a Minify installation. Its content is not used.
+ *
+ * http://example.org/min/f=min/quick-test.less
+ */
+.underline {
+  border-bottom: 1px solid green;
+}
+#header {
+  color: black;
+  border: 1px solid #dd44dd;
+}
+#header .navigation {
+  font-size: 12px;
+}
+#header .navigation a {
+  border-bottom: 1px solid green;
+}
+#header .logo {
+  width: 300px;
+}
+#header .logo :hover {
+  text-decoration: none;
+}
