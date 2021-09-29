@@ -4,7 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<title><?php //get_the_title() ?></title>-->
     <?php wp_head() ?>
 </head>
 <body>
@@ -13,20 +12,11 @@
     <div class="container">
         <a class="navbar-brand" href="#">TemaZero</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
-                class="navbar-toggler-icon"></span> </button>
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="front-page.html">Blog
-                        Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="post.html">Blog Post</a></li>
-                <li class="nav-item"> <a class="nav-link" href="page.html">Blog Page</a></li>
-                <li class="nav-item"> <a class="nav-link" href="archive.html">Blog Archive</a></li>
-            </ul>
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item"> <a class="nav-link" aria-current="page" href="contact.html">Contact us</a>
-                </li>
-            </ul>
+            <?php wp_nav_menu( ['menu' => 'primary'] ) ?>
         </div>
     </div>
 </nav>
@@ -34,7 +24,7 @@
 
 <!-- HEADER -->
 <header class="bg-dark bg-gradient text-center py-5 text-light">
-    <h1>Home</h1>
+    <h1><?php the_title()?></h1>
 </header>
 
 <!-- MAIN -->

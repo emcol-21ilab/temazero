@@ -48,3 +48,16 @@
     
     //hook: dopo aver fatto il setup del tema deve eseguire la funzione
     add_action('after_setup_theme', 'temazero_theme_support');
+
+    //adding menu support, aggiungo il supporto alle posizioni del menu (menu locations), non crea un menu ma delle posizioni dove poterli creare
+    function temazero_menu_support() {
+        //let's create an empty array for the menu locations in which the indexes rapresente the name assigned to the menu location by our theme
+        $locations = array(
+            'primary' => 'Desktop Main Menu',
+            'footer' => 'Footer Menu'
+        );
+        //ask to wp to register these locations
+        register_nav_menus( $locations );
+    }
+
+    add_action( 'init', 'temazero_menu_support' );
